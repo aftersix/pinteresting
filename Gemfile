@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+ruby '2.2.0'
 
 
 # Adding the bootstrap gem as per the lesson plan
