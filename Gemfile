@@ -1,9 +1,12 @@
 source 'https://rubygems.org'
-ruby '2.2.0'
+ruby '1.9.3'
 
 
 # Adding the bootstrap gem as per the lesson plan
 gem 'bootstrap-sass', '~> 3.1.1'
+
+# Devise
+gem 'devise', '~>3.2.4'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.0'
