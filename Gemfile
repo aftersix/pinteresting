@@ -8,6 +8,12 @@ gem 'bootstrap-sass', '~> 3.1.1'
 # Devise
 gem 'devise', '~>3.2.4'
 
+#paperclip gem
+#gem 'paperclip', '~> 4.1'
+gem 'paperclip', github: 'thoughtbot/paperclip'
+#gem 'paperclip', '2.7'
+
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.0'
 
