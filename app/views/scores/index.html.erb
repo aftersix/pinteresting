@@ -3,7 +3,7 @@
 <div id="pins" class="transitions-enabled">
     <% @scores.each do |score| %>
        <div class="box panel panel-default" >
-        <%= column_chart({"FedEx" => score.baseline, "Q1 Baseline" => score.response}) %>
+        <%= column_chart({"Client" => score.baseline, "Q1 Baseline" => score.response}) %>
         <div class="panel-body">
           <strong><%= score.category %>:</strong>
           <%= score.question %>

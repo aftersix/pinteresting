@@ -1,2 +1,12 @@
-<h1>About Us</h1>
-<p>This is a test rails app, for ap interesting app</p>
+<%= javascript_include_tag "//www.google.com/jsapi", "chartkick" %>
+
+<%= link_to "Detail", scores_path %>
+
+<br>
+<br>
+
+
+<%= column_chart [
+    {name: "Client", data: {"Development"=>1, "Creative"=>2, "Technology"=>3, "Testing"=>4} },
+    {name: "Baseline", data: {"Development"=>4, "Creative"=>3, "Technology"=>2, "Testing"=>1} }
+] %>
