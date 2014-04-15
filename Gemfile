@@ -1,6 +1,11 @@
 source 'https://rubygems.org'
 ruby '1.9.3'
 
+
+# for the google charts
+gem 'googlecharts'
+gem 'chartkick', '~> 1.2.4'
+
 # for jquery masonry
 gem 'masonry-rails', '~>0.2.0'
 

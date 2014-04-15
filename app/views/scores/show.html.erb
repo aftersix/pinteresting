@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Category:</strong>
+  <%= @score.category %>
+</p>
+
+<p>
+  <strong>Question:</strong>
+  <%= @score.question %>
+</p>
+
+<p>
+  <strong>Response:</strong>
+  <%= @score.response %>
+</p>
+
+<p>
+  <strong>Baseline:</strong>
+  <%= @score.baseline %>
+</p>
+
+<%= link_to 'Edit', edit_score_path(@score) %> |
+<%= link_to 'Back', scores_path %>

@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :scores
+
   resources :pins
 
   devise_for :users
